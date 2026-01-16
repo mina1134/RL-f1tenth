@@ -1,0 +1,9 @@
+bool init
+bool done
+bool save
+string path
+bool collision
+State state
+Action action
+Observation observation
+float32 reward
