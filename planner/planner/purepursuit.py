@@ -33,7 +33,7 @@ class PurePursuit(Node):
 
         
         ## hyper parameters ##
-        self.vgain = 1.0
+        self.vgain = 0.8
         
         # Subscriber
         self.pose_sub = self.create_subscription(Odometry, self.pose_topic, self.pose_callback, 1)

@@ -17,7 +17,7 @@ class Lane_visualize(Node):
         self.odom_sub = self.create_subscription(Odometry, '/ego_racecar/odom', self.publish, 1)
         
         csv_dir = os.path.join(Path(__file__).resolve().parents[1], 'maps/')
-        csv_name = '/home/mina/sim_ws/src/reinforcement_learning/waypoints/test_optimal.csv'
+        csv_name = '/home/mina/sim_ws/src/reinforcement_learning/waypoints/Budapest_optimal.csv'
         # self.waypoints = np.loadtxt(csv_dir+csv_name, delimiter=',')
         self.waypoints = np.loadtxt(csv_name, delimiter=',')
         
