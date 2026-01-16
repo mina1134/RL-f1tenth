@@ -1,0 +1,16 @@
+ros__parameters:
+  package_name: 'reinforcement_learning'
+  train: False
+
+  raceline_dir: 'waypoints'
+  raceline_file: 'test_optimal.csv'
+  raceline_delim: ','
+  
+  # column index
+  x: 0
+  y: 1
+  psi: 2
+  kappa: 3
+  velocity: 4
+
+  pub_action: False

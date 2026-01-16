@@ -1,0 +1,10 @@
+<launch>
+  <arg name="map_name" default="Spielberg_map"/>
+
+  <node pkg="reinforcement_learning" exec="control_node">
+  <param name="wpt_path" value="$(find-pkg-share reinforcement_learning)/waypoints/$(var map_name)_centerline.csv"/>
+  <param name="s_x" value="-69.017"/>
+  <param name="s_y" value="54.484"/>
+  <param name="s_theta" value="3.189"/>
+  </node>
+</launch>

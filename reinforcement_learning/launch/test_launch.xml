@@ -1,0 +1,7 @@
+<launch>
+  <arg name="map_name" default="test"/>
+
+  <node pkg="reinforcement_learning" exec="test">
+  <param name="wpt_path" value="$(find-pkg-share reinforcement_learning)/centerline/$(var map_name)_centerline.csv"/>
+  </node>
+</launch>
