@@ -1,0 +1,16 @@
+planner:
+  ros__parameters:
+    scan_topic: '/scan'
+    odom_topic: '/ego_racecar/odom'
+
+    wheelbase: 0.3302
+    car_width: 0.31
+
+    wpt_path: 'src/f1tenth_korea/csv/Spielberg_centerline.csv'
+    wpt_delim: ','
+    wpt_rowskip: 0
+    lookahead_ind: 4
+    
+    sx: -5.41
+    sy: 5.52
+    stheta: 3.14
