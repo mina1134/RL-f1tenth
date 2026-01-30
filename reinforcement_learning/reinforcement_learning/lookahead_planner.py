@@ -16,8 +16,8 @@ from sensor_msgs.msg import LaserScan
 from visualization_msgs.msg import Marker, MarkerArray
 from interfaces.msg import Train, Action
 
-batch_size = 1000
-memory_size = 1000000
+batch_size = 10000
+memory_size = 10000000
 file_path = os.path.join('src/reinforcement_learning', 'waypoints', 'test_optimal.csv')
 
 Transition = namedtuple('Transition',
